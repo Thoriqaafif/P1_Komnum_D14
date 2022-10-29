@@ -7,7 +7,7 @@ import numpy as np
 def f(x):
     return x**3-3*x+1
 
-def bolzano(a,b,n):
+def bolzano(f,a,b,n):
     x1 = a
     x2 =b
     for i in range(n):
@@ -44,15 +44,15 @@ def init():
     curve.set_data([],[])
     return left, right, curve
 
-i=6
+i=3
 def animate(i):
-    a, b = bolzano(x1, x2, i)
+    a, b = bolzano(f,x1, x2, i)
     left.set_data([a,a],[y1,y2])
     right.set_data([b,b],[y1,y2])
     curve.set_data(x,y)
     return left, right, curve
 
-anim = animation.FuncAnimation(fig, animate, init_func=init, frames=15, interval=600, blit=True)
+anim = animation.FuncAnimation(fig, animate, init_func=init, frames=i, interval=600, blit=True)
 
 plt.grid()
 plt.show()
