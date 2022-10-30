@@ -8,5 +8,5 @@ Pertama, saya membuat fungsi bolzano yang akan menerapkan metode bolzano untuk m
 ![Fungsi Metode Bolzano](Screenshot_20221030_084113.png)
 
 Pada solusi yang kami buat, fungsi, xn, xn+1, dan jumlah iterasi diletakkan pada source code dan tidak pada input user. Oleh karena itu, mendefinisikan mereka pada source code sebagi berikut:
-![fungsi](fungsi(1).png)
-![variabel](fungsi(2).png)
+![fungsi](fungsi (1).png)
+![variabel](fungsi (2).png)
