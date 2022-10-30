@@ -12,4 +12,4 @@ Pada solusi yang kami buat, fungsi, xn, xn+1, dan jumlah iterasi diletakkan pada
 ![variabel](fungsi (2).png)
 
 Untuk membuat kurva dan grafik, kami menggunakan bantuan library matplotlib dan numpy. Fungsi-fungsi pada library tersebut berguna untuk membuat grafis grafik, memplot nilai-nilai x dan y, serta menganimasikan penyempitan interval yang terjadi ketika melakukan setiap iterasi pada metode bolzano. Potongan code yang digunakan untuk melakukan beberapa hal tersebut sebagai berikut:
-![code grafik]([code buat grafik.png](https://github.com/Thoriqaafif/P1_Komnum_D14/blob/main/code%20buat%20grafik.png))
+![code buat grafik.png](https://github.com/Thoriqaafif/P1_Komnum_D14/blob/main/code%20buat%20grafik.png)
