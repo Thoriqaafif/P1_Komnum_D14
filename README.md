@@ -8,8 +8,8 @@ Pertama, saya membuat fungsi bolzano yang akan menerapkan metode bolzano untuk m
 ![Fungsi Metode Bolzano](Screenshot_20221030_084113.png)
 
 Pada solusi yang kami buat, fungsi, xn, xn+1, dan jumlah iterasi diletakkan pada source code dan tidak pada input user. Oleh karena itu, mendefinisikan mereka pada source code sebagi berikut:
-![fungsi](fungsi (1).png)
-![variabel](fungsi (2).png)
+![[fungsi](fungsi (1).png)](https://github.com/Thoriqaafif/P1_Komnum_D14/blob/main/fungsi%20(1).png)
+![[variabel](fungsi (2).png)](https://github.com/Thoriqaafif/P1_Komnum_D14/blob/main/fungsi%20(2).png)
 
 Untuk membuat kurva dan grafik, kami menggunakan bantuan library matplotlib dan numpy. Fungsi-fungsi pada library tersebut berguna untuk membuat grafis grafik, memplot nilai-nilai x dan y, serta menganimasikan penyempitan interval yang terjadi ketika melakukan setiap iterasi pada metode bolzano. Potongan code yang digunakan untuk melakukan beberapa hal tersebut sebagai berikut:
 ![code buat grafik.png](https://github.com/Thoriqaafif/P1_Komnum_D14/blob/main/code%20buat%20grafik.png)
